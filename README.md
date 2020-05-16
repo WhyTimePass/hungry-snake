@@ -1,7 +1,3 @@
----
-typora-root-url: ./run_time
----
-
 # hungry-snake
 env:python 3.7
 
@@ -15,8 +11,9 @@ This game only use code and not use other pic or mp3 or video, even use only one
 
 run this code:
 
-<img src="/run_time.png" alt="run_time" style="zoom:40%;" />
+![https://github.com/WhyTimePass/hungry-snake/blob/master/run_time/run_time.png]()
 
-<img src="/run_time2.png" alt="run_time2" style="zoom:40%;" />
+![https://github.com/WhyTimePass/hungry-snake/blob/master/run_time/run_time2.png]()
 
-<img src="/end.png" alt="end" style="zoom:40%;" />
+![https://github.com/WhyTimePass/hungry-snake/blob/master/run_time/end.png]()
+
