@@ -1,3 +1,7 @@
+---
+typora-root-url: ./run_time
+---
+
 # hungry-snake
 env:python 3.7
 
@@ -5,13 +9,14 @@ os:mac
 
 pygame_version: 2.0.0.dev8
 ----------------------------
-这是一段很简单的demo，只用代码实现，不用其他的图片
+这个游戏存粹由代码构成，没有引用其他图片的使用，没有其他任何依赖，可以很轻松的运行，并且代码结构也组织的不错，可以轻松的修改源码，执行python3 main.py即可运行，下面是三张运行时的截图
 
-进入snake目录，执行python3 game.py就可以了
-
-
-This is a simple game by pygame ,  only code and not use other im g
-
-you can run this demo easy, cd snake and python3 game.py
+This game only use code and not use other pic or mp3 or video, even use only one dependent library so you cant run this game and can modify its code easily. Run this game by python3 main.py.
 
 run this code:
+
+<img src="/run_time.png" alt="run_time" style="zoom:40%;" />
+
+<img src="/run_time2.png" alt="run_time2" style="zoom:40%;" />
+
+<img src="/end.png" alt="end" style="zoom:40%;" />

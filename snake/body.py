@@ -12,6 +12,7 @@ class Snake:
         self.head_pos = self.body_pos[-1]
         self.width = width
         self.height = height
+        self.count = 0
 
     def hit_self(self):
         return True if self.head_pos in list(self.body_pos)[:-1] else False
@@ -33,6 +34,15 @@ class Snake:
             val[0] += cell
         self.head_pos = val
         self.body_pos.append(val)
-        self.body_pos.popleft() if food.food_pos != val else food.rebuild()
+        if food.food_pos != val:
+            self.body_pos.popleft()
+        else:
+            food.rebuild()
+            self.count += 1
+
+    def clear(self):
+        self.body_pos = deque([k * 10, 250] for k in range(26)[-4:])
+        self.head_pos = self.body_pos[-1]
+        self.count = 0
 
 
